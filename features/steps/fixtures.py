@@ -5,5 +5,5 @@ from steps import utility, constants
 logger = logging.getLogger('myLogger')
 
 @fixture
-def browser(context):
+def browserQuit(context):
     context.browser.quit()

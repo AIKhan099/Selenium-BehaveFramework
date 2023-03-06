@@ -27,4 +27,4 @@ def before_scenario(context, scenario):
 def after_scenario(context, scenario):
     # use_fixture(fixtures.browser,context)
     if 'browser' in scenario.tags:
-        use_fixture(fixtures.browser, context)
+        use_fixture(fixtures.browserQuit, context)
